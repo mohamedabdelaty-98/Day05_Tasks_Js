@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./ValidatorGame.css" />
+  </head>
+  <body>
+    <h1>Validator Game</h1>
+    <div class="container">
+      <form action="">
+        <div>
+          <label for="username">Name </label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <p class="Display_None validation" id="P_User">
+          Please Enter Valid Name
+        </p>
+        <div>
+          <label for="email">Email </label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <p class="Display_None validation" id="P_email">
+          Please Enter Valid Email
+        </p>
+        <div>
+          <label for="password">Password </label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <p class="Display_None validation" id="P_password">
+          Please Enter Valid Password
+        </p>
+        <div class="gender">
+          <label for="geneder">Gender </label>
+          <input type="radio" id="male" name="gender" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" />
+          <label for="female">Female</label>
+        </div>
+        <p class="Display_None validation" id="P_gender">
+          Please select your gender
+        </p>
+        <div class="gender">
+          <label for="sports">Sports </label>
+          <input type="checkbox" id="running" />
+          <label for="running">Running</label>
+          <input type="checkbox" id="tennies" />
+          <label for="tennies">Tennies</label>
+          <input type="checkbox" id="football" />
+          <label for="football">Football</label>
+        </div>
+        <p class="Display_None validation" id="P_Sport">
+          Please select your Sport
+        </p>
+        <div>
+          <label for="country">Country</label>
+          <select name="" id="country">
+            <option value="">Choose Your Country</option>
+            <option value="Egypt">Egypt</option>
+            <option value="France">France</option>
+            <option value="Brazile">Brazile</option>
+            <option value="Russia">Russia</option>
+          </select>
+        </div>
+        <p class="Display_None validation" id="P_select">
+          Please select your country
+        </p>
+        <div class="submit_reset">
+          <input type="submit" /> <input type="reset" />
+        </div>
+      </form>
+    </div>
+    <script src="./ValidatorGame.js"></script>
+  </body>
+</html>

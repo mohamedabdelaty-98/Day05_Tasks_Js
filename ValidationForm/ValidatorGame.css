@@ -1,0 +1,134 @@
+html {
+  background-color: white;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: darksalmon;
+}
+.container {
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  border: solid #eee;
+  justify-content: center;
+  margin: auto;
+  width: 500px;
+  gap: 100px;
+  text-align: center;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.75);
+  /* background-color: rgb(207, 204, 204); */
+  color: black;
+}
+.container div {
+  margin-bottom: 20px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.container input {
+  padding: 6px 6px;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  border-radius: 8px;
+}
+.Display_None {
+  display: none;
+}
+.validation {
+  margin-top: -15px;
+  color: red;
+  font-family: serif;
+  font-size: small;
+}
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gender label {
+  width: 50px;
+  margin-right: 10px;
+}
+div select {
+  padding: 6px 6px;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  border-radius: 8px;
+}
+.submit_reset {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .BigContainer {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  border: 5px solid tan;
+  background-color: wheat;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  margin-top: 10px;
+  display: block;
+  margin-right: 20px;
+}
+.container_radio_checked {
+  display: flex;
+  margin-bottom: 5px;
+}
+#Gender {
+  margin-bottom: 2px;
+}
+#lists {
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="text"] input[type="password"] {
+  padding: 5px;
+  margin: 5px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+input[type="reset"] {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="reset"]:hover {
+  background-color: #3e8e41;
+} */
